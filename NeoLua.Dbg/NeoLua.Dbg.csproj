@@ -4,13 +4,13 @@
 		<AssemblyName>Neo.Lua.Dbg</AssemblyName>
 		<RootNamespace>Neo.IronLua</RootNamespace>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
-		<TargetFrameworks>net452;net60</TargetFrameworks>
 		<SignAssembly>true</SignAssembly>
 		<AssemblyOriginatorKeyFile>NeoLua.snk</AssemblyOriginatorKeyFile>
 		<PackageId>NeoLuaDebug</PackageId>
 		<Description>A Lua implementation for the Dynamic Language Runtime (DLR). Debug-Extension.</Description>
 		<PackageTags>Lua C# .net DLR Dynamic Language Debug</PackageTags>
 		<NeutralLanguage></NeutralLanguage>
+		<TargetFramework>net7.0</TargetFramework>
 		<LangVersion>9</LangVersion>
 	</PropertyGroup>
 	<Import Project="..\NeoLua.NuGet\common.nupkg.targets" />

@@ -3,7 +3,6 @@
   <PropertyGroup>
 		<AssemblyName>Neo.Lua</AssemblyName>
 		<RootNamespace>Neo.IronLua</RootNamespace>
-		<TargetFrameworks>net451;net48;netstandard2.0;net6.0</TargetFrameworks>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 		<Description>A Lua implementation for the Dynamic Language Runtime (DLR).</Description>
 		<PackageId>NeoLua</PackageId>
@@ -21,6 +20,7 @@ This library contains the desktop parts of the lua implementation.</PackageRelea
     <AssemblyOriginatorKeyFile>NeoLua.snk</AssemblyOriginatorKeyFile>
     <Nullable>disable</Nullable>
 	  <LangVersion>9</LangVersion>
+	  <TargetFramework>net7.0</TargetFramework>
   </PropertyGroup>
 	<Import Project="..\NeoLua.NuGet\common.nupkg.targets" />
 	<ItemGroup>
